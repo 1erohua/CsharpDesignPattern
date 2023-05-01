@@ -54,6 +54,18 @@ namespace _9.C_装饰者模式
             Console.WriteLine("已经为手机加装屏幕");
         }
     }
+    class ShouJiKe : Decorator
+    {
+        public ShouJiKe(Phone phone) : base(phone)
+        {
+        }
+        public override void Print()
+        {
+            base.Print();
+            Console.WriteLine("已经为手机加装了手机外壳");
+        }
+    }
+
 
 
 
