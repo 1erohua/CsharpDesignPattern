@@ -1,8 +1,4 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace _9.C_装饰者模式
 {
@@ -13,11 +9,11 @@ namespace _9.C_装饰者模式
 
     //抽象装饰者继承自抽象被装饰者（这个思路就很神奇）
 
-    abstract class Phone
+    abstract class Phone//抽象被装饰者
     {
         public abstract void Print();
     }
-    class ApplePhone : Phone
+    class ApplePhone : Phone//具体被装饰者
     {
         public override void Print()
         {
@@ -73,6 +69,21 @@ namespace _9.C_装饰者模式
     {
         static void Main(string[] args)
         {
+            //给手机加装屏幕
+            Phone IPhone10 = new ApplePhone();
+            Decorator GetPingMu10 = new PingMu(IPhone10);
+            GetPingMu10.Print();
+
+            //给手机假装手机壳
+            Phone IPhone11 = new ApplePhone();
+            Decorator ShouJiKe11 = new ShouJiKe(IPhone11);
+            ShouJiKe11.Print();
+
+            //给手机同时假装屏幕和外壳
+            Phone IPhone14 = new ApplePhone();
+            Decorator GetPingMuAndShouJiKe = new PingMu(IPhone14);
+            GetPingMuAndShouJiKe = new ShouJiKe(GetPingMuAndShouJiKe);
+            GetPingMuAndShouJiKe.Print();
         }
     }
 }
