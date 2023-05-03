@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{68850FB3-96CD-430E-8A5C-36F86D41D5CD}</ProjectGuid>
+    <ProjectGuid>{AC984EDE-E74D-45D2-A64C-0978C258EC38}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>_10.C_组合模式</RootNamespace>
-    <AssemblyName>10.C#组合模式</AssemblyName>
+    <RootNamespace>_2.C_简单工程模式</RootNamespace>
+    <AssemblyName>2.C#简单工程模式</AssemblyName>
     <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>

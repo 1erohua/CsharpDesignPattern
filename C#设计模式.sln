@@ -3,10 +3,6 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.5.33516.290
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "1.C#单例模式", "..\C#单例模式\1.C#单例模式.csproj", "{E5FDA6E4-E33F-44BE-9882-4584B352BCCB}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "2.C#简单工厂模式", "..\2.C#简单工程模式\2.C#简单工厂模式.csproj", "{AC984EDE-E74D-45D2-A64C-0978C258EC38}"
-EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "3.C#工厂方法模式", "3.C#工厂方法模式\3.C#工厂方法模式.csproj", "{F42EC804-8A62-4878-8550-300BF878BA71}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "4.C#抽象工厂模式", "4.C#抽象工厂模式\4.C#抽象工厂模式.csproj", "{D02B5AD3-F63D-4E7E-AB24-A7EAD98EE661}"
@@ -25,20 +21,16 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "9.C#装饰者模式", "9.C#
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "10.C#组合模式", "10.C#组合模式\10.C#组合模式.csproj", "{68850FB3-96CD-430E-8A5C-36F86D41D5CD}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "1.C#单例模式", "1.C#单例模式\1.C#单例模式.csproj", "{E5FDA6E4-E33F-44BE-9882-4584B352BCCB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "2.C#简单工厂模式", "2.C#简单工厂模式\2.C#简单工厂模式.csproj", "{AC984EDE-E74D-45D2-A64C-0978C258EC38}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{E5FDA6E4-E33F-44BE-9882-4584B352BCCB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{E5FDA6E4-E33F-44BE-9882-4584B352BCCB}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{E5FDA6E4-E33F-44BE-9882-4584B352BCCB}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{E5FDA6E4-E33F-44BE-9882-4584B352BCCB}.Release|Any CPU.Build.0 = Release|Any CPU
-		{AC984EDE-E74D-45D2-A64C-0978C258EC38}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{AC984EDE-E74D-45D2-A64C-0978C258EC38}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{AC984EDE-E74D-45D2-A64C-0978C258EC38}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{AC984EDE-E74D-45D2-A64C-0978C258EC38}.Release|Any CPU.Build.0 = Release|Any CPU
 		{F42EC804-8A62-4878-8550-300BF878BA71}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{F42EC804-8A62-4878-8550-300BF878BA71}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F42EC804-8A62-4878-8550-300BF878BA71}.Release|Any CPU.ActiveCfg = Release|Any CPU
@@ -75,6 +67,14 @@ Global
 		{68850FB3-96CD-430E-8A5C-36F86D41D5CD}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{68850FB3-96CD-430E-8A5C-36F86D41D5CD}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{68850FB3-96CD-430E-8A5C-36F86D41D5CD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E5FDA6E4-E33F-44BE-9882-4584B352BCCB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E5FDA6E4-E33F-44BE-9882-4584B352BCCB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E5FDA6E4-E33F-44BE-9882-4584B352BCCB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E5FDA6E4-E33F-44BE-9882-4584B352BCCB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AC984EDE-E74D-45D2-A64C-0978C258EC38}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AC984EDE-E74D-45D2-A64C-0978C258EC38}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AC984EDE-E74D-45D2-A64C-0978C258EC38}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AC984EDE-E74D-45D2-A64C-0978C258EC38}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
