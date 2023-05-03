@@ -23,6 +23,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "8.C#桥接模式", "8.C#桥
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "9.C#装饰者模式", "9.C#装饰者模式\9.C#装饰者模式.csproj", "{41059B3F-265D-4232-BB10-72328C4EB176}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "10.C#组合模式", "10.C#组合模式\10.C#组合模式.csproj", "{68850FB3-96CD-430E-8A5C-36F86D41D5CD}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -69,6 +71,10 @@ Global
 		{41059B3F-265D-4232-BB10-72328C4EB176}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{41059B3F-265D-4232-BB10-72328C4EB176}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{41059B3F-265D-4232-BB10-72328C4EB176}.Release|Any CPU.Build.0 = Release|Any CPU
+		{68850FB3-96CD-430E-8A5C-36F86D41D5CD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{68850FB3-96CD-430E-8A5C-36F86D41D5CD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{68850FB3-96CD-430E-8A5C-36F86D41D5CD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{68850FB3-96CD-430E-8A5C-36F86D41D5CD}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
