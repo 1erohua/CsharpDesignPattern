@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{7BB44A63-BE18-4075-B338-F62F3AE609D5}</ProjectGuid>
+    <ProjectGuid>{98022C96-C498-491C-BF14-BCA762DB214B}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>_13.C_代理模式</RootNamespace>
-    <AssemblyName>13.C#代理模式</AssemblyName>
+    <RootNamespace>_14.C_模板方法模式</RootNamespace>
+    <AssemblyName>_14.C_模板方法模式</AssemblyName>
     <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
