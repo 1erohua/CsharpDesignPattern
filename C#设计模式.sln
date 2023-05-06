@@ -33,6 +33,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "13.C#代理模式", "13.C#�
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "14.C#模板方法模式", "14.C#模板方法模式\14.C#模板方法模式.csproj", "{98022C96-C498-491C-BF14-BCA762DB214B}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "15.C#命令模式", "15.C#命令模式\15.C#命令模式.csproj", "{5389F681-D21D-48FE-A8CC-120FAB6D8AD2}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -99,6 +101,10 @@ Global
 		{98022C96-C498-491C-BF14-BCA762DB214B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{98022C96-C498-491C-BF14-BCA762DB214B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{98022C96-C498-491C-BF14-BCA762DB214B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5389F681-D21D-48FE-A8CC-120FAB6D8AD2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5389F681-D21D-48FE-A8CC-120FAB6D8AD2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5389F681-D21D-48FE-A8CC-120FAB6D8AD2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5389F681-D21D-48FE-A8CC-120FAB6D8AD2}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

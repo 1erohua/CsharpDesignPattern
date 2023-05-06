@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace _11.C_享元模式
+namespace _12.C_享元模式
 {
     //在软件开发中如果需要生成大量细粒度的类实例来表示数据
     //如果这些实例除了几个参数外基本上都是相同的
