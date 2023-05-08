@@ -127,12 +127,20 @@ namespace _16.C_迭代器模式
             ConcreteIterator<int> concreteIterator = new ConcreteIterator<int>(collection);
             
             //接下来就是我们大费周章想让迭代器实现的功能了
-            //将一切集合的所有功能封装在迭代器中（理论上，上面的Add函数也应该再由concreteIterator封装一层）（但是我真的是懒得做了）
+            //迭代器将遍历集合拆分成至少三个部分
+            //1.判断是否继续遍历
+            //2.获取当前的值
+            //3.转移到下一个值
+            //同时它还提供了重置功能
             while(concreteIterator.MoveNext())
             {
                 Console.WriteLine(concreteIterator.GetCurrent());
                 concreteIterator.Next();
             }
+            concreteIterator.Reset();
+            //到这里，我才大概理解一些
+            //它是打算用迭代器实现一个遍历功能
+            //并且把这个遍历功能给拆分降低耦合度
         }
     }
 }

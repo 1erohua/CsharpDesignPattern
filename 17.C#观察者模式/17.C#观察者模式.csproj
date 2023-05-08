@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{9239EA1A-5DAF-4492-969D-7B2E0605B19E}</ProjectGuid>
+    <ProjectGuid>{CD6D88FB-EA6A-4D55-BCDF-5F576EF972E9}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>_16.C_迭代器模式</RootNamespace>
-    <AssemblyName>16.C#迭代器模式</AssemblyName>
+    <RootNamespace>_17.C_观察者模式</RootNamespace>
+    <AssemblyName>17.C#观察者模式</AssemblyName>
     <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
