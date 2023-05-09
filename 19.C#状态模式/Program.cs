@@ -172,8 +172,8 @@ namespace _19.C_状态模式
             Account account = new Account("LiHua");
             account.State.GetMoney(1001);
             account.State.GetMoney(100);
-            Console.WriteLine(account.State.Money.ToString());  
-
+            Console.WriteLine(account.State.Money.ToString());
+            //状态类需要有账户的引用，而账户也需要有状态的引用
         }
     }
 }
