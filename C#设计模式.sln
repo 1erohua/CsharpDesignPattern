@@ -45,6 +45,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "19.C#状态模式", "19.C#�
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "20.C#策略者模式", "20.C#策略者模式\20.C#策略者模式.csproj", "{FDE84066-6B0B-437B-BC4A-EE7F217AB993}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "21.C#责任链模式", "21.C#责任链模式\21.C#责任链模式.csproj", "{DE492EF1-43EA-40E0-9B61-0497D0CEFA6B}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -307,6 +309,18 @@ Global
 		{FDE84066-6B0B-437B-BC4A-EE7F217AB993}.Release|x64.Build.0 = Release|Any CPU
 		{FDE84066-6B0B-437B-BC4A-EE7F217AB993}.Release|x86.ActiveCfg = Release|Any CPU
 		{FDE84066-6B0B-437B-BC4A-EE7F217AB993}.Release|x86.Build.0 = Release|Any CPU
+		{DE492EF1-43EA-40E0-9B61-0497D0CEFA6B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DE492EF1-43EA-40E0-9B61-0497D0CEFA6B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DE492EF1-43EA-40E0-9B61-0497D0CEFA6B}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{DE492EF1-43EA-40E0-9B61-0497D0CEFA6B}.Debug|x64.Build.0 = Debug|Any CPU
+		{DE492EF1-43EA-40E0-9B61-0497D0CEFA6B}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{DE492EF1-43EA-40E0-9B61-0497D0CEFA6B}.Debug|x86.Build.0 = Debug|Any CPU
+		{DE492EF1-43EA-40E0-9B61-0497D0CEFA6B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DE492EF1-43EA-40E0-9B61-0497D0CEFA6B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DE492EF1-43EA-40E0-9B61-0497D0CEFA6B}.Release|x64.ActiveCfg = Release|Any CPU
+		{DE492EF1-43EA-40E0-9B61-0497D0CEFA6B}.Release|x64.Build.0 = Release|Any CPU
+		{DE492EF1-43EA-40E0-9B61-0497D0CEFA6B}.Release|x86.ActiveCfg = Release|Any CPU
+		{DE492EF1-43EA-40E0-9B61-0497D0CEFA6B}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

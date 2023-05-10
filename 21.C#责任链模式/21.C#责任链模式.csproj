@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{FDE84066-6B0B-437B-BC4A-EE7F217AB993}</ProjectGuid>
+    <ProjectGuid>{DE492EF1-43EA-40E0-9B61-0497D0CEFA6B}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>_20.C_策略者模式</RootNamespace>
-    <AssemblyName>20.C#策略者模式</AssemblyName>
+    <RootNamespace>_21.C_责任链模式</RootNamespace>
+    <AssemblyName>21.C#责任链模式</AssemblyName>
     <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
