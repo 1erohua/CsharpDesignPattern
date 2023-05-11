@@ -6,6 +6,11 @@ using System.Threading.Tasks;
 
 namespace C_单例模式
 {
+    /// <summary>
+    /// 单例类只有一个实例对象；
+    ///单例对象必须由单例类自行创建；
+    ///单例类对外提供一个访问该单例的全局访问点。
+    /// </summary>
     internal class SingleOne
     {
         // 定义一个静态变量来保存类的实例
