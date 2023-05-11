@@ -9,8 +9,6 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "4.C#抽象工厂模式", "4
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "5.C#建造者模式", "5.C#建造者模式\5.C#建造者模式.csproj", "{8A171786-9C94-4D2C-83C8-B2FB866AE320}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "6.C#原型模式", "6.C#单例模式\6.C#原型模式.csproj", "{93F2F992-8731-4325-8906-FDD954BBB0DF}"
-EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestForDesign", "TestForDesign\TestForDesign.csproj", "{A140397E-4A83-4B42-9A0F-5A4DB6062D56}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "7.C#适配器模式", "7. C#适配器模式\7.C#适配器模式.csproj", "{FFD4738C-F423-4792-B399-85986EBA1EEA}"
@@ -50,6 +48,8 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "22.C#访问者模式", "22.C#访问者模式\22.C#访问者模式.csproj", "{3D33F4E4-6A5C-47F2-8C0F-9C621E9F6839}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "23.C#备忘录模式", "23.C#备忘录模式\23.C#备忘录模式.csproj", "{35D5FC35-1F4B-4F0D-95B5-C5E43CE40BF0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "6.C#原型模式", "6.C#原型模式\6.C#原型模式.csproj", "{93F2F992-8731-4325-8906-FDD954BBB0DF}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -97,18 +97,6 @@ Global
 		{8A171786-9C94-4D2C-83C8-B2FB866AE320}.Release|x64.Build.0 = Release|Any CPU
 		{8A171786-9C94-4D2C-83C8-B2FB866AE320}.Release|x86.ActiveCfg = Release|Any CPU
 		{8A171786-9C94-4D2C-83C8-B2FB866AE320}.Release|x86.Build.0 = Release|Any CPU
-		{93F2F992-8731-4325-8906-FDD954BBB0DF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{93F2F992-8731-4325-8906-FDD954BBB0DF}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{93F2F992-8731-4325-8906-FDD954BBB0DF}.Debug|x64.ActiveCfg = Debug|Any CPU
-		{93F2F992-8731-4325-8906-FDD954BBB0DF}.Debug|x64.Build.0 = Debug|Any CPU
-		{93F2F992-8731-4325-8906-FDD954BBB0DF}.Debug|x86.ActiveCfg = Debug|Any CPU
-		{93F2F992-8731-4325-8906-FDD954BBB0DF}.Debug|x86.Build.0 = Debug|Any CPU
-		{93F2F992-8731-4325-8906-FDD954BBB0DF}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{93F2F992-8731-4325-8906-FDD954BBB0DF}.Release|Any CPU.Build.0 = Release|Any CPU
-		{93F2F992-8731-4325-8906-FDD954BBB0DF}.Release|x64.ActiveCfg = Release|Any CPU
-		{93F2F992-8731-4325-8906-FDD954BBB0DF}.Release|x64.Build.0 = Release|Any CPU
-		{93F2F992-8731-4325-8906-FDD954BBB0DF}.Release|x86.ActiveCfg = Release|Any CPU
-		{93F2F992-8731-4325-8906-FDD954BBB0DF}.Release|x86.Build.0 = Release|Any CPU
 		{A140397E-4A83-4B42-9A0F-5A4DB6062D56}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{A140397E-4A83-4B42-9A0F-5A4DB6062D56}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A140397E-4A83-4B42-9A0F-5A4DB6062D56}.Debug|x64.ActiveCfg = Debug|Any CPU
@@ -349,6 +337,18 @@ Global
 		{35D5FC35-1F4B-4F0D-95B5-C5E43CE40BF0}.Release|x64.Build.0 = Release|Any CPU
 		{35D5FC35-1F4B-4F0D-95B5-C5E43CE40BF0}.Release|x86.ActiveCfg = Release|Any CPU
 		{35D5FC35-1F4B-4F0D-95B5-C5E43CE40BF0}.Release|x86.Build.0 = Release|Any CPU
+		{93F2F992-8731-4325-8906-FDD954BBB0DF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{93F2F992-8731-4325-8906-FDD954BBB0DF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{93F2F992-8731-4325-8906-FDD954BBB0DF}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{93F2F992-8731-4325-8906-FDD954BBB0DF}.Debug|x64.Build.0 = Debug|Any CPU
+		{93F2F992-8731-4325-8906-FDD954BBB0DF}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{93F2F992-8731-4325-8906-FDD954BBB0DF}.Debug|x86.Build.0 = Debug|Any CPU
+		{93F2F992-8731-4325-8906-FDD954BBB0DF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{93F2F992-8731-4325-8906-FDD954BBB0DF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{93F2F992-8731-4325-8906-FDD954BBB0DF}.Release|x64.ActiveCfg = Release|Any CPU
+		{93F2F992-8731-4325-8906-FDD954BBB0DF}.Release|x64.Build.0 = Release|Any CPU
+		{93F2F992-8731-4325-8906-FDD954BBB0DF}.Release|x86.ActiveCfg = Release|Any CPU
+		{93F2F992-8731-4325-8906-FDD954BBB0DF}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

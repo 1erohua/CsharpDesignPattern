@@ -1,5 +1,6 @@
 ﻿using System;
-
+//工厂方法模式弥补了简单工厂模式不好扩展的缺陷
+//我们这里说的不好扩展是指 它的扩展需要修改源代码，而我们希望的好扩展是指 它的扩展仅需添加类即可实现
 namespace _3.C_工厂方法模式
 {
     internal interface IMakingCars

@@ -8,7 +8,7 @@ namespace _10.C_组合模式
 {
     //它允许将对象组合成树形结构以表示“整体/部分”层次结构。
     //使用此模式，客户端可以按相同的方式处理单个对象和对象集合，而不必关注它们是单个对象还是组合对象
-    abstract class WenJian
+    abstract class WenJian//定义组合关系的抽象类或接口，为容器和叶子节点共享的操作提供通用的实现
     {
         protected string fileName;
         public string FileName
